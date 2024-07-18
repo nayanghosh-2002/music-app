@@ -1,0 +1,82 @@
+.hero-btns-1{
+   
+    display: block;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+     
+     padding-top:12px;
+     padding-bottom:12px;
+    color:rgb(255, 255, 255);
+     margin-top: 10%;
+     border-radius: 35px;
+     border:solid 0.3px rgb(64, 63, 63);
+     background-color: #5451514d;
+     position: relative;
+     overflow: hidden;
+     z-index:20;
+     font-weight: 800;
+     display: flex; 
+     justify-content: center;
+     align-items: center; 
+     gap:38%;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+}
+
+.hero-btns-1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgb(47, 246, 47);
+    top:100%;
+    right:0;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+    z-index: -1;
+}
+
+
+.hero-btns{
+    margin-top: 5%;
+     gap:10px;
+     align-items: center;
+     display: flex;
+
+}
+.hero-btns-1:hover{
+  color:black
+}
+.hero-btns-1:hover::after  {
+    top:0;
+    border-radius: 0;
+     
+}
+
+.arrow-container{
+    display: inline-block;
+    width: 1.8rem;
+    height:1.8rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ri-arrow-right-line{
+
+    color:rgb(0, 0, 0);
+  }
+
+  .social-link {
+    gap:30px !important;
+     & i{
+        font-size: 2rem;
+        color:white;
+     }
+  }
+
+  .social-link  i:hover{
+     color:rgb(44, 239, 44);
+  }

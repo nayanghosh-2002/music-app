@@ -1,0 +1,324 @@
+.page-2{
+    width:96%;
+    /* min-height: 100vh; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+     
+}
+
+
+.page-2-title {
+  color:rgba(228, 228, 228, 0.853);
+  font-size: 1.9rem;
+}
+
+.page-2-subtitle {
+  color:rgba(255, 255, 255, 0.755);
+  font-size: 0.7rem;
+}
+
+.page-2-filters p {
+   padding: 4px;
+   text-transform: capitalize;
+   border: solid 0.0003px rgba(82, 82, 82, 0.626);
+   color:white;
+   border-radius: 30px;
+   padding-left: 12px;
+   padding-right: 12px;
+   font-size: 0.9rem;
+   background-color: rgba(218, 220, 218, 0.147);
+   cursor: pointer;
+}
+
+.page-2-filters p:first-child {
+    background-color: rgb(255, 255, 255) !important;
+    color:black;
+    font-weight: 500;
+}
+
+.page-2-filters {
+  gap:20px;
+  margin-top: 30px;
+}
+
+
+
+/* ===================playlist-box===========style */
+.page-2-playlist-container{
+  gap:20px;
+  margin-top: 5%;
+   
+ 
+}
+
+
+.playlist-box {
+  border:solid 0.4px rgba(83, 82, 82, 0.23);
+
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+   width: 23%;
+  padding: 20px;
+  padding-bottom:20px;
+  background-color: rgba(83, 82, 82, 0.255);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  & img{
+    width:200px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 20;
+  }
+}
+.cd1 , .cd2,.cd3{
+  position: absolute;
+  width:190px;
+  height:190px;
+  background-color: black;
+  background: radial-gradient(circle at center,
+
+ 
+  transparent 20%, black 22%, rgb(254, 67, 25) 10%, red 10%, 
+  transparent 24%, black 26%, rgba(247, 0, 0, 0.966) 26%, red 28%, 
+  transparent 28%, black 30%, red 30%, red 32%, 
+  transparent 32%, black 34%, red 34%, red 36%, 
+  transparent 36%, black 38%, red 38%, red 40%, 
+  transparent 40%, black 42%, red 42%, red 44%, 
+  transparent 44%, black 46%, red 46%, red 48%, 
+  transparent 48%, black 50%, red 50%, red 52%, 
+  transparent 52%, black 54%, red 54%, red 56%, 
+  transparent 56%, black 58%, red 58%, red 60%, 
+  transparent 60%, black 62%, red 62%, red 64%, 
+  transparent 64%, black 66%, red 66%, red 68%, 
+  transparent 68%, black 70%, red 70%, red 72%, 
+  transparent 72%, black 74%, red 74%, red 76%, 
+  transparent 76%, black 78%, red 78%, red 80%, 
+  transparent 80%, black 82%, red 82%, red 84%, 
+  transparent 84%, black 86%, red 86%, red 88%, 
+  transparent 88%, black 90%, red 90%, red 92%, 
+  transparent 92%,black 94%, red 94%, red 96%, 
+  transparent 96%, black 98%, red 98%, red 100%);
+   border-radius: 50%;
+  left: 35%;
+  top:9%;
+  z-index: 2;
+  animation: rotate 0.9s linear  infinite  ;
+  transform-origin: center;
+  
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+.cd2{ 
+ 
+  background: radial-gradient(circle at center,
+  transparent 20%, black 22%, rgb(39, 68, 214) 10%, rgb(25, 117, 254) 10%, 
+  transparent 24%, black 26%,  rgb(25, 117, 253)  26%, rgb(25, 117, 254) 28%, 
+  transparent 28%, black 30%, rgb(25, 117, 254) 30%, rgb(25, 117, 254) 32%, 
+  transparent 32%, black 34%, rgb(25, 117, 254) 34%, rgb(25, 117, 254) 36%, 
+  transparent 36%, black 38%, rgb(25, 117, 254) 38%, rgb(25, 117, 254) 40%, 
+  transparent 40%, black 42%, rgb(25, 117, 254) 42%, rgb(25, 117, 254) 44%, 
+  transparent 44%, black 46%, rgb(25, 117, 254) 46%, rgb(25, 117, 254) 48%, 
+  transparent 48%, black 50%, rgb(25, 117, 254) 50%, rgb(25, 117, 254) 52%, 
+  transparent 52%, black 54%, rgb(25, 117, 254) 54%, rgb(25, 117, 254) 56%, 
+  transparent 56%, black 58%, rgb(25, 117, 254) 58%, rgb(25, 117, 254) 60%, 
+  transparent 60%, black 62%, rgb(25, 117, 254) 62%, rgb(25, 117, 254) 64%, 
+  transparent 64%, black 66%, rgb(25, 117, 254) 66%, rgb(25, 117, 254) 68%, 
+  transparent 68%, black 70%, rgb(25, 117, 254) 70%, rgb(25, 117, 254) 72%, 
+  transparent 72%, black 74%, rgb(25, 117, 254) 74%, rgb(25, 117, 254) 76%, 
+  transparent 76%, black 78%, rgb(25, 117, 254) 78%, rgb(25, 117, 254) 80%, 
+  transparent 80%, black 82%, rgb(25, 117, 254) 82%, rgb(25, 117, 254) 84%, 
+  transparent 84%, black 86%, rgb(25, 117, 254) 86%, rgb(25, 117, 254) 88%, 
+  transparent 88%, black 90%, rgb(25, 117, 254) 90%, rgb(25, 117, 254) 92%, 
+  transparent 92%, black 94%, rgb(25, 117, 254) 94%, rgb(25, 117, 254) 96%, 
+  transparent 96%, black 98%, rgb(25, 117, 254) 98%, rgb(25, 117, 254) 100%);
+
+}
+
+.cd3{
+  background: radial-gradient(circle at center,
+                transparent 20%, black 22%, rgb(234, 110, 236) 10%, rgb(217, 91, 239) 10%, 
+                transparent 24%, black 26%, rgba(230, 84, 241, 0.966) 26%, rgb(217, 91, 239) 28%, 
+                transparent 28%, black 30%, rgb(217, 91, 239) 30%, rgb(217, 91, 239) 32%, 
+                transparent 32%, black 34%, rgb(217, 91, 239) 34%, rgb(217, 91, 239) 36%, 
+                transparent 36%, black 38%, rgb(217, 91, 239) 38%, rgb(217, 91, 239) 40%, 
+                transparent 40%, black 42%, rgb(217, 91, 239) 42%, rgb(217, 91, 239) 44%, 
+                transparent 44%, black 46%, rgb(217, 91, 239) 46%, rgb(217, 91, 239) 48%, 
+                transparent 48%, black 50%, rgb(217, 91, 239) 50%, rgb(217, 91, 239) 52%, 
+                transparent 52%, black 54%, rgb(217, 91, 239) 54%, rgb(217, 91, 239) 56%, 
+                transparent 56%, black 58%, rgb(217, 91, 239) 58%, rgb(217, 91, 239) 60%, 
+                transparent 60%, black 62%, rgb(217, 91, 239) 62%, rgb(217, 91, 239) 64%, 
+                transparent 64%, black 66%, rgb(217, 91, 239) 66%, rgb(217, 91, 239) 68%, 
+                transparent 68%, black 70%, rgb(217, 91, 239) 70%, rgb(217, 91, 239) 72%, 
+                transparent 72%, black 74%, rgb(217, 91, 239) 74%, rgb(217, 91, 239) 76%, 
+                transparent 76%, black 78%, rgb(217, 91, 239) 78%, rgb(217, 91, 239) 80%, 
+                transparent 80%, black 82%, rgb(217, 91, 239) 82%, rgb(217, 91, 239) 84%, 
+                transparent 84%, black 86%, rgb(217, 91, 239) 86%, rgb(217, 91, 239) 88%, 
+                transparent 88%, black 90%, rgb(217, 91, 239) 90%, rgb(217, 91, 239) 92%, 
+                transparent 92%, black 94%, rgb(217, 91, 239) 94%, rgb(217, 91, 239) 96%, 
+                transparent 96%, black 98%, rgb(217, 91, 239) 98%, rgb(217, 91, 239) 100%);
+}
+
+.cd4{
+  position: absolute;
+  width:190px;
+  height:190px;
+   
+  border-radius: 50%;
+  left: 35%;
+  top:9%;
+  z-index: 2;
+  animation: rotate 0.9s linear  infinite  ;
+  transform-origin: center;
+ background-color: black;
+ background: radial-gradient(circle at center,
+ transparent 20%, black 22%, rgb(255, 255, 255) 10%, white 10%, 
+ transparent 24%, black 26%, rgb(255, 255, 255) 26%, white 28%, 
+ transparent 28%, black 30%, white 30%, white 32%, 
+ transparent 32%, black 34%, white 34%, white 36%, 
+ transparent 36%, black 38%, white 38%, white 40%, 
+ transparent 40%, black 42%, white 42%, white 44%, 
+ transparent 44%, black 46%, white 46%, white 48%, 
+ transparent 48%, black 50%, white 50%, white 52%, 
+ transparent 52%, black 54%, white 54%, white 56%, 
+ transparent 56%, black 58%, white 58%, white 60%, 
+ transparent 60%, black 62%, white 62%, white 64%, 
+ transparent 64%, black 66%, white 66%, white 68%, 
+ transparent 68%, black 70%, white 70%, white 72%, 
+ transparent 72%, black 74%, white 74%, white 76%, 
+ transparent 76%, black 78%, white 78%, white 80%, 
+ transparent 80%, black 82%, white 82%, white 84%, 
+ transparent 84%, black 86%, white 86%, white 88%, 
+ transparent 88%, black 90%, white 90%, white 92%, 
+ transparent 92%, black 94%, white 94%, white 96%, 
+ transparent 96%, black 98%, white 98%, white 100%)
+  
+}
+
+.page-2-d-container {
+  color:white;
+  margin-top:80%;
+   & :nth-child(1){
+    font-size: 1rem;
+    text-transform: capitalize;
+    color:rgb(234, 231, 231);
+   }
+   & :nth-child(2){
+    font-size: 0.7rem;
+    text-transform: capitalize;;
+    color:rgb(144, 139, 139)
+   }
+}
+.page-2-pb-bd1 , .page-2-pb-bd2 , .page-2-pb-bd3,.page-2-pb-bd4 {
+  
+
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(rgb(254, 0, 0),transparent);
+ 
+  top:0;
+  left: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+   
+}
+
+.page-2-pb-bd2 {
+  background: linear-gradient(rgb(93, 167, 247),transparent);
+}
+
+.page-2-pb-bd3 {
+  background: linear-gradient(rgb(239, 145, 251),transparent);
+}
+.page-2-pb-bd4{
+  background: linear-gradient(rgb(196, 185, 197),transparent);
+}
+
+
+.pbox-musicno{
+  position: absolute;
+  width: 2.2rem;
+  height:2.2rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  z-index: 500;
+  top:0.5%;
+  right:1%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  ;
+  color:rgb(25, 24, 24);
+  font-size: 0.9rem;
+  font-weight: 700;
+
+}
+
+
+
+.follow-btn {
+  width: 5rem;
+  height:1rem;
+  padding: 13px;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1000;
+  right:2%;
+  top:75%;
+  border-radius: 40px;
+
+   cursor: pointer;
+  overflow: hidden;
+}
+
+input[type="checkbox"]{
+
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1rem;
+  width: 5rem;
+   
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+input[type="checkbox"]:after{
+  position: absolute;
+  content:"follow";
+  top:0;
+  left: 0;
+  bottom:0;
+  right:0;
+  margin:auto;
+  text-align: center;
+  font-weight: 800;
+  width: 100%;
+  height:100%;
+  
+}
+
+input[type="checkbox"]:checked:after{
+   background-color: rgb(30, 255, 30);
+  content: "followed";
+}
